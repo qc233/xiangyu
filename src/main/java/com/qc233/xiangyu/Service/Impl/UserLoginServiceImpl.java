@@ -28,7 +28,7 @@ public class UserLoginServiceImpl implements UserLoginService {
     }
 
     @Override
-    public Result login(User user, String authToken) {
+    public Result loginByToken(User user) {
         /* TODO 实现用户Token登录*/
         return null;
     }
