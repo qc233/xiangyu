@@ -10,6 +10,8 @@ public class User {
     String nickname;
     String salt;
     String password;
+    String nowAuthToken;
+    String email;
     Timestamp registerTime;
     Timestamp lastLoginTime;
 

@@ -22,4 +22,6 @@ public interface UserLoginService {
      *      date: 附加数据，不可直接使用List
      */
     public Result login(User user);
+
+    public Result login(User user, String authToken);
 }
