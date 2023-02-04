@@ -12,6 +12,7 @@ public class User {
     String password;
     String nowAuthToken;
     String email;
+    boolean inEmailVite;
     Timestamp registerTime;
     Timestamp lastLoginTime;
 
