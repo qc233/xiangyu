@@ -1,12 +1,18 @@
 package com.qc233.xiangyu.Service.Impl;
 
+import com.qc233.xiangyu.DAO.UserDAO;
 import com.qc233.xiangyu.Pojo.Result;
 import com.qc233.xiangyu.Pojo.User;
 import com.qc233.xiangyu.Service.UserLoginService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserLoginServiceImpl implements UserLoginService {
+
+    @Autowired
+    UserDAO userDAO;
+
     @Override
     public Result register(User user) {
 
